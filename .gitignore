@@ -1,0 +1,30 @@
+.idea/*
+.vscode/
+# 
+
+# credential
+*.ppk
+*.pem
+
+__pyche__
+
+# MacOS
+.DS_Store
+
+__pycache__
+.pytest_cache/
+*.tar
+
+models/llama2*
+loras/llama2*
+loras/rank*
+loras/config*
+image/
+wandb/
+config/*
+cache
+
+*.pickle
+*.out
+*.ipynb
+*.pth

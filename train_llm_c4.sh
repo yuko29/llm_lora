@@ -27,3 +27,4 @@ CUDA_VISIBLE_DEVICES=0 python run_clm.py \
     --learning_rate 1e-4 \
     --lr_scheduler_type "cosine" \
     --output_dir loras/llama2-c4 \
+    --report_to "none"

@@ -23,6 +23,7 @@ CUDA_VISIBLE_DEVICES=0 python run_clm.py \
     --save_total_limit 15 \
     --do_train \
     --do_eval \
-    --output_dir loras/llama2-w2
+    --output_dir loras/llama2-w2 \
+    --report_to "none"
 
 

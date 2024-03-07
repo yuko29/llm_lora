@@ -24,9 +24,18 @@ pip install -U datasets
 
 ## Fine-tuning
 
+* Single GPU training
+
 ```
 ./train_llm.sh      # Use wikitext2
 ./train_llm_c4.sh   # Use c4
+```
+
+* Multi-GPU trainig (DDP)
+
+```
+./train_llm_multigpu.sh
+./train_llm_c4_multigpu.sh
 ```
 
 ## Batch size config
